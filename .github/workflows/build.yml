@@ -17,12 +17,6 @@ jobs:
           - os: windows-latest
             built: horizon-next.exe
             out: horizon-next-windows.exe
-          - os: ubuntu-latest
-            built: horizon-next
-            out: horizon-next-linux
-          - os: macos-latest
-            built: horizon-next
-            out: horizon-next-macos
     runs-on: ${{ matrix.os }}
     defaults:
       run:
